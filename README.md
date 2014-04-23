@@ -2,11 +2,11 @@ SCREENSHOTS
 ===========================
 Available Blur Effects:
 
-[Normal] (https://raw.githubusercontent.com/KiranPatel-iOS/KPBlurEffect/master/Screenshots/1.%20Normal.png)
-[Light] (https://raw.githubusercontent.com/KiranPatel-iOS/KPBlurEffect/master/Screenshots/2.%20Light.png)
-[ExtraLight] (https://raw.githubusercontent.com/KiranPatel-iOS/KPBlurEffect/master/Screenshots/3.%20Extra%20Light.png)
-[Dark] (https://raw.githubusercontent.com/KiranPatel-iOS/KPBlurEffect/master/Screenshots/4.%20Dark.png)
-[TintColor] (https://raw.githubusercontent.com/KiranPatel-iOS/KPBlurEffect/master/Screenshots/5.%20Tint%20Color.png)
+![Normal] (https://raw.githubusercontent.com/KiranPatel-iOS/KPBlurEffect/master/Screenshots/1.%20Normal.png)
+![Light] (https://raw.githubusercontent.com/KiranPatel-iOS/KPBlurEffect/master/Screenshots/2.%20Light.png)
+![ExtraLight] (https://raw.githubusercontent.com/KiranPatel-iOS/KPBlurEffect/master/Screenshots/3.%20Extra%20Light.png)
+![Dark] (https://raw.githubusercontent.com/KiranPatel-iOS/KPBlurEffect/master/Screenshots/4.%20Dark.png)
+![TintColor] (https://raw.githubusercontent.com/KiranPatel-iOS/KPBlurEffect/master/Screenshots/5.%20Tint%20Color.png)
 
 ABOUT
 ===========================
