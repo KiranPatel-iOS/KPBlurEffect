@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8158CDA819078AFC00DA5592 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8158CDA719078AFC00DA5592 /* Foundation.framework */; };
+		8158CDAA19078AFC00DA5592 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8158CDA919078AFC00DA5592 /* CoreGraphics.framework */; };
+		8158CDAC19078AFC00DA5592 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8158CDAB19078AFC00DA5592 /* UIKit.framework */; };
+		8158CDB219078AFC00DA5592 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8158CDB019078AFC00DA5592 /* InfoPlist.strings */; };
+		8158CDB419078AFC00DA5592 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8158CDB319078AFC00DA5592 /* main.m */; };
+		8158CDB819078AFC00DA5592 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8158CDB719078AFC00DA5592 /* AppDelegate.m */; };
+		8158CDBA19078AFC00DA5592 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8158CDB919078AFC00DA5592 /* Images.xcassets */; };
+		8158CDC119078AFC00DA5592 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8158CDC019078AFC00DA5592 /* XCTest.framework */; };
+		8158CDC219078AFC00DA5592 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8158CDA719078AFC00DA5592 /* Foundation.framework */; };
+		8158CDC319078AFC00DA5592 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8158CDAB19078AFC00DA5592 /* UIKit.framework */; };
+		8158CDCB19078AFC00DA5592 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8158CDC919078AFC00DA5592 /* InfoPlist.strings */; };
+		8158CDCD19078AFC00DA5592 /* KPBlurEffectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8158CDCC19078AFC00DA5592 /* KPBlurEffectTests.m */; };
+		8158CDDB19078B5800DA5592 /* KPBlurEffectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8158CDD919078B5800DA5592 /* KPBlurEffectViewController.m */; };
+		8158CDDC19078B5800DA5592 /* KPBlurEffectViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8158CDDA19078B5800DA5592 /* KPBlurEffectViewController.xib */; };
+		8158CDE119078B9D00DA5592 /* UIImage+ImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = 8158CDE019078B9D00DA5592 /* UIImage+ImageEffects.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8158CDC419078AFC00DA5592 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8158CD9C19078AFC00DA5592 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8158CDA319078AFC00DA5592;
+			remoteInfo = KPBlurEffect;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8158CDA419078AFC00DA5592 /* KPBlurEffect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KPBlurEffect.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8158CDA719078AFC00DA5592 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8158CDA919078AFC00DA5592 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8158CDAB19078AFC00DA5592 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8158CDAF19078AFC00DA5592 /* KPBlurEffect-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KPBlurEffect-Info.plist"; sourceTree = "<group>"; };
+		8158CDB119078AFC00DA5592 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8158CDB319078AFC00DA5592 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8158CDB519078AFC00DA5592 /* KPBlurEffect-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KPBlurEffect-Prefix.pch"; sourceTree = "<group>"; };
+		8158CDB619078AFC00DA5592 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8158CDB719078AFC00DA5592 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8158CDB919078AFC00DA5592 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		8158CDBF19078AFC00DA5592 /* KPBlurEffectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KPBlurEffectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8158CDC019078AFC00DA5592 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		8158CDC819078AFC00DA5592 /* KPBlurEffectTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KPBlurEffectTests-Info.plist"; sourceTree = "<group>"; };
+		8158CDCA19078AFC00DA5592 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8158CDCC19078AFC00DA5592 /* KPBlurEffectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KPBlurEffectTests.m; sourceTree = "<group>"; };
+		8158CDD819078B5800DA5592 /* KPBlurEffectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KPBlurEffectViewController.h; sourceTree = "<group>"; };
+		8158CDD919078B5800DA5592 /* KPBlurEffectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KPBlurEffectViewController.m; sourceTree = "<group>"; };
+		8158CDDA19078B5800DA5592 /* KPBlurEffectViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KPBlurEffectViewController.xib; sourceTree = "<group>"; };
+		8158CDDF19078B9D00DA5592 /* UIImage+ImageEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageEffects.h"; sourceTree = "<group>"; };
+		8158CDE019078B9D00DA5592 /* UIImage+ImageEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageEffects.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8158CDA119078AFC00DA5592 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8158CDAA19078AFC00DA5592 /* CoreGraphics.framework in Frameworks */,
+				8158CDAC19078AFC00DA5592 /* UIKit.framework in Frameworks */,
+				8158CDA819078AFC00DA5592 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8158CDBC19078AFC00DA5592 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8158CDC119078AFC00DA5592 /* XCTest.framework in Frameworks */,
+				8158CDC319078AFC00DA5592 /* UIKit.framework in Frameworks */,
+				8158CDC219078AFC00DA5592 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8158CD9B19078AFC00DA5592 = {
+			isa = PBXGroup;
+			children = (
+				8158CDAD19078AFC00DA5592 /* KPBlurEffect */,
+				8158CDC619078AFC00DA5592 /* KPBlurEffectTests */,
+				8158CDA619078AFC00DA5592 /* Frameworks */,
+				8158CDA519078AFC00DA5592 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8158CDA519078AFC00DA5592 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8158CDA419078AFC00DA5592 /* KPBlurEffect.app */,
+				8158CDBF19078AFC00DA5592 /* KPBlurEffectTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8158CDA619078AFC00DA5592 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8158CDA719078AFC00DA5592 /* Foundation.framework */,
+				8158CDA919078AFC00DA5592 /* CoreGraphics.framework */,
+				8158CDAB19078AFC00DA5592 /* UIKit.framework */,
+				8158CDC019078AFC00DA5592 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8158CDAD19078AFC00DA5592 /* KPBlurEffect */ = {
+			isa = PBXGroup;
+			children = (
+				8158CDDD19078B9D00DA5592 /* ExtClasses */,
+				8158CDD619078B2400DA5592 /* Controller */,
+				8158CDB619078AFC00DA5592 /* AppDelegate.h */,
+				8158CDB719078AFC00DA5592 /* AppDelegate.m */,
+				8158CDB919078AFC00DA5592 /* Images.xcassets */,
+				8158CDAE19078AFC00DA5592 /* Supporting Files */,
+			);
+			path = KPBlurEffect;
+			sourceTree = "<group>";
+		};
+		8158CDAE19078AFC00DA5592 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8158CDAF19078AFC00DA5592 /* KPBlurEffect-Info.plist */,
+				8158CDB019078AFC00DA5592 /* InfoPlist.strings */,
+				8158CDB319078AFC00DA5592 /* main.m */,
+				8158CDB519078AFC00DA5592 /* KPBlurEffect-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8158CDC619078AFC00DA5592 /* KPBlurEffectTests */ = {
+			isa = PBXGroup;
+			children = (
+				8158CDCC19078AFC00DA5592 /* KPBlurEffectTests.m */,
+				8158CDC719078AFC00DA5592 /* Supporting Files */,
+			);
+			path = KPBlurEffectTests;
+			sourceTree = "<group>";
+		};
+		8158CDC719078AFC00DA5592 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8158CDC819078AFC00DA5592 /* KPBlurEffectTests-Info.plist */,
+				8158CDC919078AFC00DA5592 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8158CDD619078B2400DA5592 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8158CDD719078B2400DA5592 /* KPBlurEffectViewController */,
+			);
+			name = Controller;
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		8158CDD719078B2400DA5592 /* KPBlurEffectViewController */ = {
+			isa = PBXGroup;
+			children = (
+				8158CDD819078B5800DA5592 /* KPBlurEffectViewController.h */,
+				8158CDD919078B5800DA5592 /* KPBlurEffectViewController.m */,
+				8158CDDA19078B5800DA5592 /* KPBlurEffectViewController.xib */,
+			);
+			path = KPBlurEffectViewController;
+			sourceTree = "<group>";
+		};
+		8158CDDD19078B9D00DA5592 /* ExtClasses */ = {
+			isa = PBXGroup;
+			children = (
+				8158CDDE19078B9D00DA5592 /* UIImage+ImageEffects */,
+			);
+			path = ExtClasses;
+			sourceTree = "<group>";
+		};
+		8158CDDE19078B9D00DA5592 /* UIImage+ImageEffects */ = {
+			isa = PBXGroup;
+			children = (
+				8158CDDF19078B9D00DA5592 /* UIImage+ImageEffects.h */,
+				8158CDE019078B9D00DA5592 /* UIImage+ImageEffects.m */,
+			);
+			path = "UIImage+ImageEffects";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8158CDA319078AFC00DA5592 /* KPBlurEffect */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8158CDD019078AFC00DA5592 /* Build configuration list for PBXNativeTarget "KPBlurEffect" */;
+			buildPhases = (
+				8158CDA019078AFC00DA5592 /* Sources */,
+				8158CDA119078AFC00DA5592 /* Frameworks */,
+				8158CDA219078AFC00DA5592 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KPBlurEffect;
+			productName = KPBlurEffect;
+			productReference = 8158CDA419078AFC00DA5592 /* KPBlurEffect.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8158CDBE19078AFC00DA5592 /* KPBlurEffectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8158CDD319078AFC00DA5592 /* Build configuration list for PBXNativeTarget "KPBlurEffectTests" */;
+			buildPhases = (
+				8158CDBB19078AFC00DA5592 /* Sources */,
+				8158CDBC19078AFC00DA5592 /* Frameworks */,
+				8158CDBD19078AFC00DA5592 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8158CDC519078AFC00DA5592 /* PBXTargetDependency */,
+			);
+			name = KPBlurEffectTests;
+			productName = KPBlurEffectTests;
+			productReference = 8158CDBF19078AFC00DA5592 /* KPBlurEffectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8158CD9C19078AFC00DA5592 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Solutionanalysts Pvt. Ltd.";
+				TargetAttributes = {
+					8158CDBE19078AFC00DA5592 = {
+						TestTargetID = 8158CDA319078AFC00DA5592;
+					};
+				};
+			};
+			buildConfigurationList = 8158CD9F19078AFC00DA5592 /* Build configuration list for PBXProject "KPBlurEffect" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8158CD9B19078AFC00DA5592;
+			productRefGroup = 8158CDA519078AFC00DA5592 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8158CDA319078AFC00DA5592 /* KPBlurEffect */,
+				8158CDBE19078AFC00DA5592 /* KPBlurEffectTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8158CDA219078AFC00DA5592 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8158CDB219078AFC00DA5592 /* InfoPlist.strings in Resources */,
+				8158CDDC19078B5800DA5592 /* KPBlurEffectViewController.xib in Resources */,
+				8158CDBA19078AFC00DA5592 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8158CDBD19078AFC00DA5592 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8158CDCB19078AFC00DA5592 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8158CDA019078AFC00DA5592 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8158CDE119078B9D00DA5592 /* UIImage+ImageEffects.m in Sources */,
+				8158CDB819078AFC00DA5592 /* AppDelegate.m in Sources */,
+				8158CDDB19078B5800DA5592 /* KPBlurEffectViewController.m in Sources */,
+				8158CDB419078AFC00DA5592 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8158CDBB19078AFC00DA5592 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8158CDCD19078AFC00DA5592 /* KPBlurEffectTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8158CDC519078AFC00DA5592 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8158CDA319078AFC00DA5592 /* KPBlurEffect */;
+			targetProxy = 8158CDC419078AFC00DA5592 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8158CDB019078AFC00DA5592 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8158CDB119078AFC00DA5592 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8158CDC919078AFC00DA5592 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8158CDCA19078AFC00DA5592 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8158CDCE19078AFC00DA5592 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8158CDCF19078AFC00DA5592 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8158CDD119078AFC00DA5592 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KPBlurEffect/KPBlurEffect-Prefix.pch";
+				INFOPLIST_FILE = "KPBlurEffect/KPBlurEffect-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8158CDD219078AFC00DA5592 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KPBlurEffect/KPBlurEffect-Prefix.pch";
+				INFOPLIST_FILE = "KPBlurEffect/KPBlurEffect-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		8158CDD419078AFC00DA5592 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/KPBlurEffect.app/KPBlurEffect";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KPBlurEffect/KPBlurEffect-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "KPBlurEffectTests/KPBlurEffectTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		8158CDD519078AFC00DA5592 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/KPBlurEffect.app/KPBlurEffect";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KPBlurEffect/KPBlurEffect-Prefix.pch";
+				INFOPLIST_FILE = "KPBlurEffectTests/KPBlurEffectTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8158CD9F19078AFC00DA5592 /* Build configuration list for PBXProject "KPBlurEffect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8158CDCE19078AFC00DA5592 /* Debug */,
+				8158CDCF19078AFC00DA5592 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8158CDD019078AFC00DA5592 /* Build configuration list for PBXNativeTarget "KPBlurEffect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8158CDD119078AFC00DA5592 /* Debug */,
+				8158CDD219078AFC00DA5592 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8158CDD319078AFC00DA5592 /* Build configuration list for PBXNativeTarget "KPBlurEffectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8158CDD419078AFC00DA5592 /* Debug */,
+				8158CDD519078AFC00DA5592 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8158CD9C19078AFC00DA5592 /* Project object */;
+}
